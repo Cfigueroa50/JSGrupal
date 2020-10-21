@@ -1,0 +1,119 @@
+.citas {
+  display: flex;
+  justify-content: center;
+}
+.divlogos {
+  display: flex;
+  justify-content: center;
+}
+#imagen {
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+#formulario-beneficios {
+  float: right;
+  width: 40%;
+}
+header,
+footer {
+  clear: both;
+  justify-content: center;
+  text-align: center;
+}
+.kat {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Para versión móvil (Mobile First): */
+  [class*="col-"] {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid red;
+  }
+  /* Para versión escritorio o laptop: */
+  @media only screen and (min-width: 768px){
+    .col-1 {
+      width: 8.33%;
+    }
+    .col-2 {
+      width: 16.66%;
+    }
+    .col-3 {
+      width: 25%;
+    }
+    .col-4 {
+      width: 33.33%;
+    }
+    .col-5 {
+      width: 41.66%;
+    }
+    .col-6 {
+      width: 50%;
+    }
+    .col-7 {
+      width: 58.33%;
+    }
+    .col-8 {
+      width: 66.66%;
+    }
+    .col-9 {
+      width: 75%;
+    }
+    .col-10 {
+      width: 83.33%;
+    }
+    .col-11 {
+      width: 91.66%;
+    }
+    .col-12 {
+      width: 100%;
+    }
+    [class*="col-"] {
+      float: left;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  }
+.logo {
+  display: block;
+  margin: auto;
+  display: flex;
+  width: 20%;
+  
+}
+.ifi {
+  margin: auto;
+  text-align: center;
+}
+
+/* nav */
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
